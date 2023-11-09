@@ -1,0 +1,80 @@
+body {
+    font-family: sans-serif;
+  }
+  nav {
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 23%;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    
+font-weight: bold;
+}
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+  
+  .heroine-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .heroine-profile img {
+    width: 250px;
+    height: auto;
+    margin-right: 20px;
+  }
+
+  .bio {
+    flex: 1;
+  }
+  
+  .bio h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .bio p {
+    line-height: 1.5;
+  }
+  
+  .heroine-achievements,
+  .heroine-impact {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
